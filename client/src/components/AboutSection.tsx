@@ -1,7 +1,9 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Target, Eye, Heart } from "lucide-react";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import teamImage from "@assets/generated_images/Professional_startup_team_photo_4ff68f13.png";
 
 export default function AboutSection() {
@@ -29,16 +31,31 @@ export default function AboutSection() {
       role: "CEO & Co-fundador",
       bio: "10+ años en IA y machine learning. Ex-Google, especialista en soluciones empresariales.",
       image: teamImage,
-      expertise: ["Inteligencia Artificial", "Estrategia Empresarial", "Machine Learning"]
+      expertise: ["Inteligencia Artificial", "Estrategia Empresarial", "Machine Learning"],
+      social: {
+        linkedin: "https://linkedin.com/in/carlosmendoza",
+        github: "https://github.com/carlosmendoza",
+        instagram: "https://instagram.com/carlosmendoza"
+      }
     },
     {
       name: "Ana Rodriguez",
       role: "CTO & Co-fundadora",
       bio: "Experta en desarrollo de software y arquitectura de sistemas. Ex-Microsoft, líder en automatización.",
       image: teamImage,
-      expertise: ["Arquitectura de Software", "Automatización", "Cloud Computing"]
+      expertise: ["Arquitectura de Software", "Automatización", "Cloud Computing"],
+      social: {
+        linkedin: "https://linkedin.com/in/anarodriguez",
+        github: "https://github.com/anarodriguez",
+        instagram: "https://instagram.com/anarodriguez"
+      }
     }
   ];
+
+  const handleSocialClick = (platform: string, url: string) => {
+    console.log(`${platform} clicked`);
+    window.open(url, "_blank");
+  };
 
   return (
     <section className="py-24 bg-background">
@@ -99,12 +116,43 @@ export default function AboutSection() {
                   <p className="text-muted-foreground mb-4">
                     {member.bio}
                   </p>
-                  <div className="flex flex-wrap justify-center gap-2">
+                  <div className="flex flex-wrap justify-center gap-2 mb-4">
                     {member.expertise.map((skill, idx) => (
                       <Badge key={idx} variant="secondary" className="text-xs">
                         {skill}
                       </Badge>
                     ))}
+                  </div>
+                  
+                  {/* Social Links */}
+                  <div className="flex justify-center gap-2">
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      onClick={() => handleSocialClick("LinkedIn", member.social.linkedin)}
+                      className="hover-elevate h-8 w-8"
+                      data-testid={`social-linkedin-${index}`}
+                    >
+                      <FaLinkedin className="h-4 w-4" />
+                    </Button>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      onClick={() => handleSocialClick("GitHub", member.social.github)}
+                      className="hover-elevate h-8 w-8"
+                      data-testid={`social-github-${index}`}
+                    >
+                      <FaGithub className="h-4 w-4" />
+                    </Button>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      onClick={() => handleSocialClick("Instagram", member.social.instagram)}
+                      className="hover-elevate h-8 w-8"
+                      data-testid={`social-instagram-${index}`}
+                    >
+                      <FaInstagram className="h-4 w-4" />
+                    </Button>
                   </div>
                 </CardContent>
               </Card>

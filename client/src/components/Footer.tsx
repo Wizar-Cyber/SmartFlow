@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
+import { FaWhatsapp, FaFacebook } from "react-icons/fa";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -29,7 +30,9 @@ export default function Footer() {
   const socialLinks = [
     { icon: Linkedin, href: "https://linkedin.com/company/smartflow", label: "LinkedIn" },
     { icon: Twitter, href: "https://twitter.com/smartflow", label: "Twitter" },
-    { icon: Github, href: "https://github.com/smartflow", label: "GitHub" }
+    { icon: Github, href: "https://github.com/smartflow", label: "GitHub" },
+    { icon: FaWhatsapp, href: "https://wa.me/573001234567", label: "WhatsApp" },
+    { icon: FaFacebook, href: "https://facebook.com/smartflow", label: "Facebook" }
   ];
 
   const handleSocialClick = (platform: string, url: string) => {
@@ -65,7 +68,7 @@ export default function Footer() {
                 </div>
                 <div className="flex items-center space-x-2 text-muted-foreground">
                   <MapPin className="h-4 w-4" />
-                  <span>Bogotá, Colombia</span>
+                  <span>Medellín, Colombia</span>
                 </div>
               </div>
             </div>

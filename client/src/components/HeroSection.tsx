@@ -13,7 +13,10 @@ export default function HeroSection() {
   const handleContact = () => {
     console.log("Contact clicked");
     trackEvent('contact_click', 'engagement', 'hero_cta');
-    // TODO: Implement contact form navigation
+    const phoneNumber = "573001234567";
+    const message = encodeURIComponent("Hola, me interesa conocer más sobre los servicios de automatización de Smart Flow. ¿Podrían contactarme?");
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(whatsappUrl, '_blank');
   };
 
   return (
@@ -54,7 +57,7 @@ export default function HeroSection() {
               variant="outline"
               size="lg"
               onClick={handleContact}
-              className="text-lg px-8 py-4 hover-elevate bg-background/20 backdrop-blur-sm"
+              className="text-lg px-8 py-4 hover-elevate bg-background/20 backdrop-blur-sm border-primary text-primary hover:bg-primary hover:text-primary-foreground"
               data-testid="button-hero-contact"
             >
               <MessageCircle className="mr-2 h-5 w-5" />

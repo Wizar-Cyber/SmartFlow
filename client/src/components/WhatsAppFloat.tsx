@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { MessageCircle, X } from "lucide-react";
+import { X } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import { trackEvent } from "@/lib/analytics";
 
 export default function WhatsAppFloat() {
@@ -89,11 +90,11 @@ export default function WhatsAppFloat() {
       <Button
         onClick={handleWhatsAppClick}
         size="icon"
-        className="h-14 w-14 rounded-full bg-green-500 hover:bg-green-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 animate-bounce"
+        className="h-14 w-14 rounded-full bg-green-500 hover:bg-green-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
         data-testid="whatsapp-float-button"
         title="Chatea con nosotros por WhatsApp"
       >
-        <MessageCircle className="h-7 w-7" />
+        <FaWhatsapp className="h-7 w-7" />
       </Button>
     </div>
   );
