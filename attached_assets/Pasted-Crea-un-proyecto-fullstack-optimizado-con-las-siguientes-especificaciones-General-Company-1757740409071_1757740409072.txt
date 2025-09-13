@@ -1,0 +1,100 @@
+Crea un proyecto fullstack optimizado con las siguientes especificaciones:
+
+⸻
+
+📌 General
+	•	Company Name: Smart Flow
+	•	Industry: Startup tecnológica (IA & Automatización empresarial).
+	•	Target Audience: Empresas en Latinoamérica que buscan optimizar procesos, reducir costos y mejorar la atención al cliente mediante automatización con IA.
+	•	Tone & Style: Profesional, confiable y moderno. Diseño minimalista, paleta oscura con acento neón (#00FF9D). Estilo visual tipo startup SaaS.
+	•	Logo: Incluir un espacio visible en el header para el logo (usar fuente igual al logo: sans-serif moderno, similar a Poppins).
+
+⸻
+
+🎨 Paleta de colores
+	•	Fondo principal (oscuro): #0A0F1C
+	•	Acento neón: #00FF9D
+	•	Azul corporativo del logo: #004B87
+	•	Azul intermedio (hover): #006BB6
+	•	Verde acento del logo: #2E9B44
+	•	Gris claro (fondos alternos): #F4F4F4
+	•	Blanco puro (texto principal): #FFFFFF
+
+⸻
+
+🖥️ Tecnologías
+
+Frontend
+	•	React.js + Vite (rápido, modular).
+	•	TailwindCSS con configuración extendida para incluir la paleta anterior.
+	•	react-i18next para multilenguaje (mínimo español/inglés).
+	•	React Router para la navegación entre secciones.
+
+Backend
+	•	Express.js para el servidor API.
+	•	Nodemailer para envío de correos desde el formulario de contacto.
+	•	Cors + dotenv configurados correctamente.
+
+Extras
+	•	SEO optimizado (metadatos dinámicos, títulos, descripciones).
+	•	Google Analytics integrado.
+	•	Diseño 100% responsive (móvil primero).
+	•	Blog optimizado para SEO con estructura clara (title, slug, metaDescription).
+
+⸻
+
+📑 Estructura del Sitio
+
+1. Home
+	•	Hero section con tagline:
+“Automatizamos tus procesos con IA — Ahorra tiempo, reduce costos y mejora tu atención al cliente”.
+	•	Botones de acción: [Agendar demo] [Contáctanos].
+	•	Beneficios en 3 columnas con íconos:
+	•	🚀 Ahorro de tiempo
+	•	🤖 Automatización inteligente
+	•	🔒 Seguridad y cumplimiento
+	•	Sección breve con servicios destacados (íconos + descripciones).
+	•	CTA final para “Agenda tu diagnóstico gratuito”.
+
+2. Servicios
+	•	Servicios con íconos, descripción y botón Solicitar propuesta:
+	•	Auditoría & Discovery
+	•	Implementación de Workflows con n8n + integraciones SaaS
+	•	Soporte & Mantenimiento con SLA
+	•	Consultoría en IA responsable
+
+3. Portafolio / Casos de éxito
+	•	Caso 1: Retail X – 40% menos tickets manuales en atención al cliente.
+	•	Caso 2: E-commerce Y – Integración de pagos y envíos en tiempo real.
+	•	Caso 3: Startup Z – Reducción del 30% en costos operativos.
+	•	Logos de clientes destacados.
+
+4. Nosotros
+	•	Misión, visión y valores.
+	•	Breve presentación del equipo fundador (IA + software).
+
+5. Blog / Recursos
+	•	Ejemplo de artículos optimizados para SEO:
+	•	“Qué procesos puede automatizar tu empresa con IA”.
+	•	“Top 5 beneficios de la automatización en atención al cliente”.
+	•	“n8n vs Zapier: ¿qué conviene para tu negocio?”.
+
+6. Contacto
+	•	Formulario con campos: Nombre, Empresa, Email, Teléfono, Mensaje.
+	•	Botón de WhatsApp Business API.
+	•	Correo directo: contacto@smartflow.com.co.
+	•	CTA: “Agenda tu diagnóstico gratuito de 30 minutos”.
+
+7. Legal
+	•	Políticas de privacidad (Ley 1581 de protección de datos).
+	•	Políticas de cookies.
+	•	Términos y condiciones.
+	•	Pie de página con NIT y derechos reservados.
+
+⸻
+
+📌 Requisitos adicionales
+	•	Diseño moderno tipo SaaS (dark theme + acento neón).
+	•	Animaciones suaves en botones y secciones al hacer scroll.
+	•	Componentes reutilizables en React.
+	•	Formulario conectado al backend con 
