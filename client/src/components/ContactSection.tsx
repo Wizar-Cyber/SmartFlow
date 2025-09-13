@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { MessageCircle, Mail, Phone, MapPin, Send } from "lucide-react";
+import { trackEvent } from "@/lib/analytics";
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -41,6 +42,8 @@ export default function ContactSection() {
 
       if (response.ok) {
         setSubmitMessage("¡Formulario enviado correctamente! Te contactaremos pronto.");
+        // Track successful form submission
+        trackEvent('contact_form_submit', 'engagement', 'contact_form', 1);
         setFormData({
           name: "",
           company: "",
@@ -50,6 +53,8 @@ export default function ContactSection() {
         });
       } else {
         setSubmitMessage(result.error || "Error al enviar el formulario. Inténtalo de nuevo.");
+        // Track form submission error
+        trackEvent('contact_form_error', 'engagement', 'contact_form');
       }
     } catch (error) {
       console.error("Error submitting form:", error);
@@ -61,12 +66,13 @@ export default function ContactSection() {
 
   const handleWhatsApp = () => {
     console.log("WhatsApp clicked");
-    // TODO: Open WhatsApp Business API
+    trackEvent('whatsapp_click', 'engagement', 'contact_whatsapp');
     window.open("https://wa.me/573001234567?text=Hola, me interesa saber más sobre Smart Flow", "_blank");
   };
 
   const handleScheduleDiagnosis = () => {
     console.log("Schedule diagnosis clicked");
+    trackEvent('schedule_diagnosis_click', 'engagement', 'contact_diagnosis');
     // TODO: Implement scheduling functionality
   };
 

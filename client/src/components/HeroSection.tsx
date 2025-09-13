@@ -1,15 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, MessageCircle } from "lucide-react";
 import heroImage from "@assets/generated_images/AI_automation_hero_background_6bad1c56.png";
+import { trackEvent } from "@/lib/analytics";
 
 export default function HeroSection() {
   const handleScheduleDemo = () => {
     console.log("Schedule demo clicked");
+    trackEvent('schedule_demo_click', 'engagement', 'hero_cta');
     // TODO: Implement demo scheduling
   };
 
   const handleContact = () => {
     console.log("Contact clicked");
+    trackEvent('contact_click', 'engagement', 'hero_cta');
     // TODO: Implement contact form navigation
   };
 
