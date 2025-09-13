@@ -1,0 +1,184 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "scheduleDemo": "Schedule Demo"
+  },
+  "hero": {
+    "title": "We automate your processes with",
+    "titleHighlight": "AI",
+    "subtitle": "Save time, reduce costs and improve customer service through intelligent automation",
+    "scheduleDemo": "Schedule Demo",
+    "contact": "Contact Us",
+    "timeSaving": "Time Saving",
+    "timeSavingDesc": "Reduce manual tasks by up to 80%",
+    "smartAutomation": "Smart Automation",
+    "smartAutomationDesc": "AI that learns and continuously improves",
+    "security": "Security & Compliance",
+    "securityDesc": "Enterprise data protection"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive automation solutions designed to transform your business",
+    "audit": {
+      "title": "Audit & Discovery",
+      "description": "We analyze your current processes to identify automation and optimization opportunities.",
+      "features": ["Process Mapping", "ROI Analysis", "Strategic Recommendations"]
+    },
+    "workflows": {
+      "title": "Workflow Implementation",
+      "description": "Development and integration of automated flows with n8n and SaaS connections.",
+      "features": ["n8n Automation", "API Integrations", "Custom Workflows"]
+    },
+    "support": {
+      "title": "Support & Maintenance",
+      "description": "Continuous technical support with defined SLA to ensure optimal performance.",
+      "features": ["24/7 Monitoring", "Guaranteed SLA", "Regular Updates"]
+    },
+    "consulting": {
+      "title": "Responsible AI Consulting",
+      "description": "Ethical and responsible AI implementation to maximize benefits and minimize risks.",
+      "features": ["Ethical AI", "Compliance", "Best Practices"]
+    },
+    "requestProposal": "Request Proposal",
+    "ctaTitle": "Ready to transform your business?",
+    "ctaSubtitle": "Schedule your free 30-minute diagnostic and discover your company's automation potential",
+    "ctaButton": "Schedule your free diagnostic"
+  },
+  "portfolio": {
+    "title": "Success Stories",
+    "subtitle": "Real results our clients have achieved with our automation solutions",
+    "clientsTitle": "Clients who trust us",
+    "case1": {
+      "title": "Retail X - Customer Service Optimization",
+      "industry": "Retail",
+      "description": "Implementation of intelligent chatbots and support ticket automation.",
+      "metric1": "Reduction in manual tickets",
+      "metric2": "Response time",
+      "metric3": "Customer satisfaction",
+      "technologies": ["n8n", "AI Chatbot", "CRM Integration"]
+    },
+    "case2": {
+      "title": "E-commerce Y - Payment and Shipping Integration",
+      "industry": "E-commerce",
+      "description": "Complete automation of the order process from payment to delivery.",
+      "metric1": "Automatic processing",
+      "metric2": "Shipping errors",
+      "metric3": "Processing time",
+      "technologies": ["API Integrations", "Webhook Automation", "Real-time Sync"]
+    },
+    "case3": {
+      "title": "Startup Z - Operational Cost Reduction",
+      "industry": "Technology",
+      "description": "Internal process automation and human resource optimization.",
+      "metric1": "Operational costs",
+      "metric2": "Team productivity",
+      "metric3": "Annual ROI",
+      "technologies": ["Process Mining", "RPA", "Analytics Dashboard"]
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "A team passionate about transforming companies through intelligent automation",
+    "mission": "Mission",
+    "missionDesc": "Democratize access to intelligent automation so companies of all sizes can compete in the digital age.",
+    "vision": "Vision",
+    "visionDesc": "To be the leading AI automation company in Latin America, transforming how companies operate and serve their customers.",
+    "values": "Values",
+    "valuesDesc": "Responsible innovation, total transparency, technical excellence and genuine commitment to our clients' success.",
+    "teamTitle": "Founding Team",
+    "carlos": {
+      "name": "Carlos Mendoza",
+      "role": "CEO & Co-founder",
+      "bio": "10+ years in AI and machine learning. Ex-Google, specialist in enterprise solutions."
+    },
+    "ana": {
+      "name": "Ana Rodriguez",
+      "role": "CTO & Co-founder",
+      "bio": "Expert in software development and systems architecture. Ex-Microsoft, automation leader."
+    },
+    "stats": {
+      "projectsCompleted": "Completed projects",
+      "satisfaction": "Customer satisfaction",
+      "costReduction": "Average cost reduction",
+      "support": "Support available"
+    }
+  },
+  "blog": {
+    "title": "Blog & Resources",
+    "subtitle": "Stay updated with the latest trends in automation and enterprise AI",
+    "readMore": "Read more",
+    "viewAll": "View all articles",
+    "readTime": "min",
+    "articles": {
+      "automation": {
+        "title": "What processes can your company automate with AI",
+        "description": "Discover the most common processes that companies are automating and how you can start.",
+        "category": "Automation"
+      },
+      "benefits": {
+        "title": "Top 5 benefits of automation in customer service",
+        "description": "How automation is transforming the customer experience and improving efficiency.",
+        "category": "Customer Service"
+      },
+      "comparison": {
+        "title": "n8n vs Zapier: what's best for your business?",
+        "description": "Complete comparison between the two most popular automation platforms in the market.",
+        "category": "Tools"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Ready to transform your company? Let's talk about how we can help you",
+    "formTitle": "Send us a message",
+    "formSubtitle": "Fill out the form and we'll get back to you within 24 hours",
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your project and how we can help you...",
+    "send": "Send message",
+    "sending": "Sending...",
+    "successMessage": "Form sent successfully! We'll contact you soon.",
+    "errorMessage": "Error sending form. Please try again.",
+    "connectionError": "Connection error. Check your internet and try again.",
+    "contactInfo": "Contact information",
+    "whatsappTitle": "WhatsApp Business",
+    "whatsappSubtitle": "Chat directly with our team",
+    "openWhatsapp": "Open WhatsApp",
+    "diagnosisTitle": "Free Diagnostic",
+    "diagnosisSubtitle": "Schedule your free 30-minute session",
+    "diagnosisFeatures": [
+      "Current process analysis",
+      "Opportunity identification",
+      "Personalized recommendations",
+      "ROI estimation"
+    ],
+    "scheduleDiagnosis": "Schedule free diagnostic"
+  },
+  "footer": {
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "rights": "Smart Flow. All rights reserved.",
+    "nit": "Tax ID: 900.123.456-7"
+  },
+  "whatsapp": {
+    "hello": "Hello!",
+    "helpMessage": "Can we help you with your company's automation?",
+    "chatTitle": "Chat with us on WhatsApp",
+    "businessMessage": "Hello, I'm interested in learning more about Smart Flow automation services. Could you contact me?",
+    "floatMessage": "Hello, I'm interested in learning more about Smart Flow services. Could you help me?"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "close": "Close"
+  }
+}

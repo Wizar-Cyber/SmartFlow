@@ -1,0 +1,184 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "about": "Nosotros",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "scheduleDemo": "Agendar Demo"
+  },
+  "hero": {
+    "title": "Automatizamos tus procesos con",
+    "titleHighlight": "IA",
+    "subtitle": "Ahorra tiempo, reduce costos y mejora tu atención al cliente mediante automatización inteligente",
+    "scheduleDemo": "Agendar Demo",
+    "contact": "Contáctanos",
+    "timeSaving": "Ahorro de tiempo",
+    "timeSavingDesc": "Reduce tareas manuales hasta en un 80%",
+    "smartAutomation": "Automatización inteligente",
+    "smartAutomationDesc": "IA que aprende y mejora continuamente",
+    "security": "Seguridad y cumplimiento",
+    "securityDesc": "Protección de datos empresariales"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones integrales de automatización diseñadas para transformar tu negocio",
+    "audit": {
+      "title": "Auditoría & Discovery",
+      "description": "Analizamos tus procesos actuales para identificar oportunidades de automatización y optimización.",
+      "features": ["Mapeo de procesos", "Análisis de ROI", "Recomendaciones estratégicas"]
+    },
+    "workflows": {
+      "title": "Implementación de Workflows",
+      "description": "Desarrollo e integración de flujos automatizados con n8n y conexiones SaaS.",
+      "features": ["Automatización n8n", "Integraciones API", "Workflows personalizados"]
+    },
+    "support": {
+      "title": "Soporte & Mantenimiento",
+      "description": "Soporte técnico continuo con SLA definido para garantizar el funcionamiento óptimo.",
+      "features": ["Monitoreo 24/7", "SLA garantizado", "Actualizaciones regulares"]
+    },
+    "consulting": {
+      "title": "Consultoría en IA Responsable",
+      "description": "Implementación ética y responsable de IA para maximizar beneficios y minimizar riesgos.",
+      "features": ["IA ética", "Compliance", "Mejores prácticas"]
+    },
+    "requestProposal": "Solicitar Propuesta",
+    "ctaTitle": "¿Listo para transformar tu negocio?",
+    "ctaSubtitle": "Agenda tu diagnóstico gratuito de 30 minutos y descubre el potencial de automatización en tu empresa",
+    "ctaButton": "Agenda tu diagnóstico gratuito"
+  },
+  "portfolio": {
+    "title": "Casos de Éxito",
+    "subtitle": "Resultados reales que nuestros clientes han logrado con nuestras soluciones de automatización",
+    "clientsTitle": "Clientes que confían en nosotros",
+    "case1": {
+      "title": "Retail X - Optimización de Atención al Cliente",
+      "industry": "Retail",
+      "description": "Implementación de chatbots inteligentes y automatización de tickets de soporte.",
+      "metric1": "Reducción en tickets manuales",
+      "metric2": "Tiempo de respuesta",
+      "metric3": "Satisfacción del cliente",
+      "technologies": ["n8n", "Chatbot IA", "CRM Integration"]
+    },
+    "case2": {
+      "title": "E-commerce Y - Integración de Pagos y Envíos",
+      "industry": "E-commerce",
+      "description": "Automatización completa del proceso de órdenes desde pago hasta entrega.",
+      "metric1": "Procesamiento automático",
+      "metric2": "Errores de envío",
+      "metric3": "Tiempo de procesamiento",
+      "technologies": ["API Integrations", "Webhook Automation", "Real-time Sync"]
+    },
+    "case3": {
+      "title": "Startup Z - Reducción de Costos Operativos",
+      "industry": "Tecnología",
+      "description": "Automatización de procesos internos y optimización de recursos humanos.",
+      "metric1": "Costos operativos",
+      "metric2": "Productividad del equipo",
+      "metric3": "ROI anual",
+      "technologies": ["Process Mining", "RPA", "Analytics Dashboard"]
+    }
+  },
+  "about": {
+    "title": "Nosotros",
+    "subtitle": "Un equipo apasionado por transformar empresas a través de la automatización inteligente",
+    "mission": "Misión",
+    "missionDesc": "Democratizar el acceso a la automatización inteligente para que empresas de todos los tamaños puedan competir en la era digital.",
+    "vision": "Visión",
+    "visionDesc": "Ser la empresa líder en automatización con IA en Latinoamérica, transformando la manera en que las empresas operan y sirven a sus clientes.",
+    "values": "Valores",
+    "valuesDesc": "Innovación responsable, transparencia total, excelencia técnica y compromiso genuino con el éxito de nuestros clientes.",
+    "teamTitle": "Equipo Fundador",
+    "carlos": {
+      "name": "Carlos Mendoza",
+      "role": "CEO & Co-fundador",
+      "bio": "10+ años en IA y machine learning. Ex-Google, especialista en soluciones empresariales."
+    },
+    "ana": {
+      "name": "Ana Rodriguez",
+      "role": "CTO & Co-fundadora",
+      "bio": "Experta en desarrollo de software y arquitectura de sistemas. Ex-Microsoft, líder en automatización."
+    },
+    "stats": {
+      "projectsCompleted": "Proyectos completados",
+      "satisfaction": "Satisfacción del cliente",
+      "costReduction": "Reducción promedio de costos",
+      "support": "Soporte disponible"
+    }
+  },
+  "blog": {
+    "title": "Blog & Recursos",
+    "subtitle": "Mantente actualizado con las últimas tendencias en automatización e IA empresarial",
+    "readMore": "Leer más",
+    "viewAll": "Ver todos los artículos",
+    "readTime": "min",
+    "articles": {
+      "automation": {
+        "title": "Qué procesos puede automatizar tu empresa con IA",
+        "description": "Descubre los procesos más comunes que las empresas están automatizando y cómo puedes empezar.",
+        "category": "Automatización"
+      },
+      "benefits": {
+        "title": "Top 5 beneficios de la automatización en atención al cliente",
+        "description": "Cómo la automatización está transformando la experiencia del cliente y mejorando la eficiencia.",
+        "category": "Atención al Cliente"
+      },
+      "comparison": {
+        "title": "n8n vs Zapier: ¿qué conviene para tu negocio?",
+        "description": "Comparativa completa entre las dos plataformas de automatización más populares del mercado.",
+        "category": "Herramientas"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Listo para transformar tu empresa? Hablemos sobre cómo podemos ayudarte",
+    "formTitle": "Envíanos un mensaje",
+    "formSubtitle": "Completa el formulario y nos pondremos en contacto contigo en menos de 24 horas",
+    "name": "Nombre",
+    "company": "Empresa",
+    "email": "Email",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "messagePlaceholder": "Cuéntanos sobre tu proyecto y cómo podemos ayudarte...",
+    "send": "Enviar mensaje",
+    "sending": "Enviando...",
+    "successMessage": "¡Formulario enviado correctamente! Te contactaremos pronto.",
+    "errorMessage": "Error al enviar el formulario. Inténtalo de nuevo.",
+    "connectionError": "Error de conexión. Verifica tu internet e inténtalo de nuevo.",
+    "contactInfo": "Información de contacto",
+    "whatsappTitle": "WhatsApp Business",
+    "whatsappSubtitle": "Chatea directamente con nuestro equipo",
+    "openWhatsapp": "Abrir WhatsApp",
+    "diagnosisTitle": "Diagnóstico Gratuito",
+    "diagnosisSubtitle": "Agenda tu sesión de 30 minutos sin costo",
+    "diagnosisFeatures": [
+      "Análisis de procesos actuales",
+      "Identificación de oportunidades",
+      "Recomendaciones personalizadas",
+      "Estimación de ROI"
+    ],
+    "scheduleDiagnosis": "Agendar diagnóstico gratuito"
+  },
+  "footer": {
+    "services": "Servicios",
+    "company": "Empresa",
+    "legal": "Legal",
+    "rights": "Smart Flow. Todos los derechos reservados.",
+    "nit": "NIT: 900.123.456-7"
+  },
+  "whatsapp": {
+    "hello": "¡Hola!",
+    "helpMessage": "¿Te ayudamos con la automatización de tu empresa?",
+    "chatTitle": "Chatea con nosotros por WhatsApp",
+    "businessMessage": "Hola, me interesa conocer más sobre los servicios de automatización de Smart Flow. ¿Podrían contactarme?",
+    "floatMessage": "Hola, me interesa conocer más sobre los servicios de Smart Flow. ¿Podrían ayudarme?"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "close": "Cerrar"
+  }
+}

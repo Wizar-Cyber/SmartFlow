@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Globe } from "lucide-react";
 import {
@@ -7,9 +6,10 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { useTranslation } from "react-i18next";
 
 export function LanguageToggle() {
-  const [language, setLanguage] = useState("es");
+  const { i18n } = useTranslation();
 
   const languages = [
     { code: "es", name: "Español", flag: "🇪🇸" },
@@ -17,9 +17,8 @@ export function LanguageToggle() {
   ];
 
   const handleLanguageChange = (langCode: string) => {
-    setLanguage(langCode);
+    i18n.changeLanguage(langCode);
     console.log(`Language changed to: ${langCode}`);
-    // TODO: Implement i18n integration
   };
 
   return (
@@ -34,7 +33,7 @@ export function LanguageToggle() {
           <DropdownMenuItem
             key={lang.code}
             onClick={() => handleLanguageChange(lang.code)}
-            className={language === lang.code ? "bg-accent" : ""}
+            className={i18n.language === lang.code ? "bg-accent" : ""}
             data-testid={`language-option-${lang.code}`}
           >
             <span className="mr-2">{lang.flag}</span>

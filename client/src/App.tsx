@@ -8,6 +8,7 @@ import NotFound from "@/pages/not-found";
 import { useEffect } from "react";
 import { initGA } from "./lib/analytics";
 import { useAnalytics } from "./hooks/use-analytics";
+import "./i18n";
 
 function Router() {
   // Track page views when routes change

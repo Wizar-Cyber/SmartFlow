@@ -4,18 +4,20 @@ import { Button } from "@/components/ui/button";
 import { Menu, X, Globe } from "lucide-react";
 import { LanguageToggle } from "@/components/LanguageToggle";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { useTranslation } from "react-i18next";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const [location] = useLocation();
+  const { t } = useTranslation();
 
   const navigation = [
-    { name: "Inicio", href: "/", nameEn: "Home" },
-    { name: "Servicios", href: "/servicios", nameEn: "Services" },
-    { name: "Portafolio", href: "/portafolio", nameEn: "Portfolio" },
-    { name: "Nosotros", href: "/nosotros", nameEn: "About" },
-    { name: "Blog", href: "/blog", nameEn: "Blog" },
-    { name: "Contacto", href: "/contacto", nameEn: "Contact" },
+    { name: t("nav.home"), href: "/", key: "home" },
+    { name: t("nav.services"), href: "/servicios", key: "services" },
+    { name: t("nav.portfolio"), href: "/portafolio", key: "portfolio" },
+    { name: t("nav.about"), href: "/nosotros", key: "about" },
+    { name: t("nav.blog"), href: "/blog", key: "blog" },
+    { name: t("nav.contact"), href: "/contacto", key: "contact" },
   ];
 
   return (
@@ -35,7 +37,7 @@ export default function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                data-testid={`link-${item.nameEn.toLowerCase()}`}
+                data-testid={`link-${item.key}`}
               >
                 <Button
                   variant={location === item.href ? "secondary" : "ghost"}
@@ -52,7 +54,7 @@ export default function Navigation() {
             <LanguageToggle />
             <ThemeToggle />
             <Button data-testid="button-schedule-demo">
-              Agendar Demo
+              {t("nav.scheduleDemo")}
             </Button>
           </div>
 
@@ -79,7 +81,7 @@ export default function Navigation() {
                   key={item.href}
                   href={item.href}
                   onClick={() => setIsOpen(false)}
-                  data-testid={`mobile-link-${item.nameEn.toLowerCase()}`}
+                  data-testid={`mobile-link-${item.key}`}
                 >
                   <Button
                     variant={location === item.href ? "secondary" : "ghost"}
@@ -92,7 +94,7 @@ export default function Navigation() {
               <div className="flex items-center justify-between pt-4">
                 <LanguageToggle />
                 <Button size="sm" data-testid="mobile-button-schedule-demo">
-                  Agendar Demo
+                  {t("nav.scheduleDemo")}
                 </Button>
               </div>
             </div>
