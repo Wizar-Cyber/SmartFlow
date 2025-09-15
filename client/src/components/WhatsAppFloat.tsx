@@ -33,7 +33,7 @@ export default function WhatsAppFloat() {
   }, []);
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "573001234567"; // TODO: Replace with your actual WhatsApp Business number
+    const phoneNumber = "573137674996"; // TODO: Replace with your actual WhatsApp Business number
     const message = encodeURIComponent("Hola, me interesa conocer más sobre los servicios de Smart Flow. ¿Podrían ayudarme?");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     
